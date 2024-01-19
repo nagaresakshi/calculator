@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: sans-serif;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.calculator {
+    height: 65vh;
+    width: 20vw;
+    padding: 5px;
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 4px 6px 14px #000000, -4px -4px 14px gray;
+    border-radius: 4%;
+    border: 2px solid black;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+}
+
+.display #screen {
+    width: 97%;
+    height: 90px;
+    font-size: 40px;
+    outline: none;
+    text-align: end;
+    justify-content: center;
+    margin: 5px 2px;
+    margin-top: 5px;
+    background-color: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 5px 5px 17px gray, inset -7px -7px 19px gray;
+    color: black;
+    border-top: 2px solid gray;
+}
+
+.btns {
+    width: 100%;
+    margin-top: 0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+}
+
+.btns .row button {
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin: 5px 4px;
+    border-radius: 4px;
+    box-sizing: 5px 5px 8px #000000;
+    box-shadow: 1px 2px 7px black;
+    padding: 3px 8px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 4px black;
+}
+
+.btns .row .op {
+    background-color: rgb(52, 50, 51);
+    font-size: 25px;
+    color: white;
+}
+
+.clear {
+    background-color: rgb(18, 18, 105);
+    color: white;
+}
+
+.bt {
+    background-color: rgb(205, 203, 203);
+}
+
+.num {
+    background-color: gray;
+}
+
+.op1 {
+    background-color: rgb(139, 96, 16);
+    color: white;
+}
+
+input {
+    color: gray;
+}
+
+.display ::placeholder {
+    color: black;
+}
